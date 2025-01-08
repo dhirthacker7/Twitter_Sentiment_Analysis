@@ -79,7 +79,7 @@ TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
 ### 4. Run the Project
 Start the analysis by running the main Python script:
 ```bash
-
+python sentiment_analysis.py
 ```
 
 ## Insights and Visualizations
