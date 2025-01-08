@@ -60,3 +60,39 @@ This project focuses on extracting, processing, and analyzing Twitter data to de
 git clone https://github.com/dhirthacker7/twitter_sentiment_analysis.git  
 cd twitter_sentiment_analysis  
 ```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt  
+```
+
+### 3. Setup Twitter API Keys
+Create a Twitter Developer account and obtain API keys.
+Store the keys in a .env file with the following format:
+```bash
+TWITTER_API_KEY=your_api_key  
+TWITTER_API_SECRET_KEY=your_secret_key  
+TWITTER_ACCESS_TOKEN=your_access_token  
+TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
+```
+
+### 4. Run the Project
+Start the analysis by running the main Python script:
+```bash
+
+```
+
+## Insights and Visualizations
+### Sentiment Distribution
+Visualize the proportion of positive, negative, and neutral tweets for a given keyword.
+### Trending Topics
+Identify trending hashtags and phrases associated with the analyzed sentiment.
+### Temporal Analysis
+Explore how public sentiment changes over time for specific events or topics.
+### Word Clouds
+Highlight frequently used terms for positive and negative tweets, providing contextual insights.
+
+## Future Enhancements
+#### Integrate deep learning models (e.g., transformers) for more accurate sentiment classification.
+#### Expand the project to analyze data from multiple social media platforms.
+#### Implement a web-based interface using Streamlit for user-friendly sentiment exploration.
